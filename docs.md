@@ -30,4 +30,6 @@
     - import: asynchronous, only on the top of the file, ES6 (new), requires the enabling of es6 module
 
 
-#
+# Creating an https server
+1. use require module named httpserver
+2. use node:http --- bcz it removes the ambiguity if the package is required from default node modules or npm 
